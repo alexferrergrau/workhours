@@ -1,5 +1,13 @@
 {
-    "name": "symfony/framework-standard-edition",
+    "name": "alexferrergrau/workhours",
+    "authors": [
+        {
+            "name": "Alex Ferrer Grau",
+            "email": "alexferrergrau@gmail.com",
+            "homepage": "https://github.com/alexferrergrau/workhours.git",
+            "role": "Developer"
+        }
+    ]
     "license": "MIT",
     "type": "project",
     "description": "The \"Symfony Standard Edition\" distribution",
