@@ -7,7 +7,7 @@
             "homepage": "https://github.com/alexferrergrau/workhours.git",
             "role": "Developer"
         }
-    ]
+    ],
     "license": "MIT",
     "type": "project",
     "description": "The \"Symfony Standard Edition\" distribution",
