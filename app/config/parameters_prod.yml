@@ -13,3 +13,4 @@ parameters:
     mailer_password: null
     locale: en
     secret: ThisTokenIsNotSoSecretChangeIt
+    contact_email: alexferrergrau@gmail.com
