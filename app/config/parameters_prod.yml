@@ -1,11 +1,11 @@
 # This file is auto-generated during the composer install
 parameters:
     database_driver: pdo_mysql
-    database_host: 212.48.78.205
+    database_host: us-cdbr-iron-east-03.cleardb.net
     database_port: 3306
-    database_name: meopfvvx_workhours
-    database_user: meopfvvx_alex
-    database_password: fhaNhyHRKHTm
+    database_name: us-cdbr-iron-east-03.cleardb.net
+    database_user: b171b4e4f4585d
+    database_password: 5c3ba67c
 
     mailer_transport: smtp
     mailer_host: 127.0.0.1
