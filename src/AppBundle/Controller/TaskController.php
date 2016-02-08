@@ -76,7 +76,7 @@ class TaskController extends Controller
             'method' => 'POST',
         ));
 
-        $form->add('submit', 'submit', array('label' => 'Create'));
+        $form->add('submit', 'submit', array('label' => 'Crear tarea', 'attr' => array('class' => 'btn btn-success pull-left')));
 
         return $form;
     }
@@ -165,7 +165,7 @@ class TaskController extends Controller
             'method' => 'PUT',
         ));
 
-        $form->add('submit', 'submit', array('label' => 'Update'));
+        $form->add('submit', 'submit', array('label' => 'Actualizar', 'attr' => array('class' => 'btn btn-success pull-left')));
 
         return $form;
     }
@@ -193,7 +193,7 @@ class TaskController extends Controller
         if ($editForm->isValid()) {
             $em->flush();
 
-            return $this->redirect($this->generateUrl('task_edit', array('id' => $id)));
+            return $this->redirect($this->generateUrl('task_show', array('id' => $id)));
         }
 
         return array(
