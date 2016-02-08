@@ -3,7 +3,7 @@ parameters:
     database_driver: pdo_mysql
     database_host: us-cdbr-iron-east-03.cleardb.net
     database_port: 3306
-    database_name: us-cdbr-iron-east-03.cleardb.net
+    database_name: heroku_d8ca0871822aa56
     database_user: b171b4e4f4585d
     database_password: 5c3ba67c
 

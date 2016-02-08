@@ -1,0 +1,30 @@
+{% extends '::base.html.twig' %}
+
+{% block body -%}
+    <h1>Task creation</h1>
+    {{ form_start(form) }}
+
+    {{ form_label(form.title) }}
+
+    {{ form_widget(form.title) }}
+
+    {{ form_errors(form.title) }}
+
+    {{ form_label(form.description) }}
+    {{ form_widget(form.description) }}
+    {{ form_errors(form.description) }}
+
+    {{ form_label(form.hours) }}
+    {{ form_widget(form.hours) }}
+    {{ form_errors(form.hours) }}
+
+    {{ form_end(form) }}
+
+        <ul class="record_actions">
+    <li>
+        <a href="{{ path('task') }}">
+            Back to the list
+        </a>
+    </li>
+</ul>
+{% endblock %}

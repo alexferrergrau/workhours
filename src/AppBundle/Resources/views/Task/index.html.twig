@@ -1,0 +1,62 @@
+{% extends '::base.html.twig' %}
+
+{% block body -%}
+
+<div class="container-fluid">
+    <div class="row">
+    <div class="form col-xs-12 col-md-10">
+    <h2>Registro de tareas</h2>
+
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Nombre</th>
+                <th>Descripción</th>
+                <th>Horas</th>
+                <th>Acción</th>
+
+
+            </tr>
+        </thead>
+        <tbody>
+        {% for entity in entities %}
+            <tr>
+                <td><a href="{{ path('task_show', { 'id': entity.id }) }}">{{ entity.id }}</a></td>
+                <td>{{ entity.title }}</td>
+                <td>{{ entity.description }}</td>
+                <td>{{ entity.hours }}</td>
+                <td>
+                <ul>
+                    <li>
+                        <a href="{{ path('task_show', { 'id': entity.id }) }}"><button type="button" class="btn btn-success pull-left">Ver tarea</button></a>
+                    </li>
+
+                    <li>
+                        <a href="{{ path('task_edit', { 'id': entity.id }) }}"><button type="button" class="btn btn-warning pull-left">Editar tarea</button></a>
+                    </li>
+                </ul>
+                </td>
+            </tr>
+        {% endfor %}
+        </tbody>
+    </table>
+
+        <ul>
+            <li>
+                <a href="{{ path('task_new') }}"><button type="button" class="btn btn-primary">
+                        Nueva tarea</button>
+                </a>
+            </li>
+
+
+        </ul>
+
+
+
+
+
+    </div>
+    </div>
+</div>
+    {% endblock %}

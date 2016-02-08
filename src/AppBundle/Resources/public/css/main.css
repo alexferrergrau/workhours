@@ -51,4 +51,21 @@ h3 {
 	border:1px solid #ddd;
 	padding: 0 10px 10px;
 	border-radius: 10px;
+}
+
+.form {
+	background-color: white;
+	opacity: 0.95;
+	margin: 0 auto !important;
+  	float: none !important;
+    padding: 10px 20px;
 }	
+
+ul {
+	list-style: none;
+	padding-left: 0;
+}
+
+.pull-left {
+    margin-right: 10px;
+}
