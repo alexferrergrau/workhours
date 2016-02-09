@@ -61,6 +61,10 @@ h3 {
     padding: 10px 20px;
 }	
 
+.form-control {
+	margin-bottom: 10px;
+}
+
 ul {
 	list-style: none;
 	padding-left: 0;

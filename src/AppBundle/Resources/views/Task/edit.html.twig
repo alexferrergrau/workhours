@@ -10,17 +10,15 @@
 
     {{ form_start(edit_form) }}
 
-    {{ form_label(edit_form.title) }}
-
+    {{ form_label(edit_form.title, 'Tarea') }}
     {{ form_widget(edit_form.title) }}
-
     {{ form_errors(edit_form.title) }}
-
-    {{ form_label(edit_form.description) }}
+<br/>
+    {{ form_label(edit_form.description , 'Descripción') }}
     {{ form_widget(edit_form.description) }}
     {{ form_errors(edit_form.description) }}
-
-    {{ form_label(edit_form.hours) }}
+<br/>
+    {{ form_label(edit_form.hours , 'Horas empleadas') }}
     {{ form_widget(edit_form.hours) }}
     {{ form_errors(edit_form.hours) }}
 

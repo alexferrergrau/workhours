@@ -9,17 +9,15 @@
     <h2>Nueva tarea</h2>
     {{ form_start(form) }}
 
-    {{ form_label(form.title) }}
-
+    {{ form_label(form.title, 'Tarea') }}
     {{ form_widget(form.title) }}
-
     {{ form_errors(form.title) }}
-
-    {{ form_label(form.description) }}
+<br/>
+    {{ form_label(form.description, 'Descripción') }}
     {{ form_widget(form.description) }}
     {{ form_errors(form.description) }}
-
-    {{ form_label(form.hours) }}
+<br/>
+    {{ form_label(form.hours, 'Horas empleadas') }}
     {{ form_widget(form.hours) }}
     {{ form_errors(form.hours) }}
 
