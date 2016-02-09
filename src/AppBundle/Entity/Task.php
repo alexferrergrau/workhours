@@ -2,6 +2,7 @@
 
 namespace AppBundle\Entity;
 
+use Symfony\Component\Validator\Constraints as Assert;
 use Doctrine\ORM\Mapping as ORM;
 
 /**
@@ -23,18 +24,30 @@ class Task
 
     /**
      * @var string
-     *
      * @ORM\Column(name="title", type="string", length=255)
      */
     private $title;
 
     /**
+     *
+     * @Assert\Length(
+     *      min = 20,
+     *      max = 1000,
+     *      minMessage = "The description must be at least {{ limit }} characters long",
+     *      maxMessage = "The description name cannot be longer than {{ limit }} characters"
+     * )
      * @var string
      *
      * @ORM\Column(name="description", type="string", length=255)
      */
     private $description;
 
+
+    /**
+     * @Assert\NotEqualTo(
+     *     value = 0
+     * )
+     */
     /**
      * @var integer
      *

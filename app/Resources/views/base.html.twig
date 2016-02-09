@@ -9,32 +9,27 @@
 
         <div class="container">
 
-            <a href="#" class="navbar-brand"><img src="{{ asset('bundles/app/logo_workhours.png') }}"/></a> <button class="navbar-toggle"
-                                                                                                                    data-toggle="collapse" data-target=".navHeaderCollapse"></button>
+            <a href="#" class="navbar-brand"><img src="{{ asset('bundles/app/logo_workhours.png') }}"/></a>
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse"></button>
 
             <div class="collapse navbar-collapse navHeaderCollapse">
                 <ul class="nav navbar-nav navbar-left">
-                    <li class="active"><a href="#">Inicio</a></li>
-
-                    <li><a href="#">Noticias</a></li>
+                    <li class="active"><a href="{{ url('login') }}">Inicio</a></li>
 
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Registro</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tareas<span class="caret"></a>
 
                         <ul class="dropdown-menu">
-                            <li><a href="#">Tareas</a></li>
+                            <li><a href="{{ url('task') }}">Ver tareas</a></li>
 
-                            <li><a href="#">Horas de trabajo</a></li>
+                            <li><a href="{{ url('task_new') }}">Nueva tarea</a></li>
 
-                            <li><a href="#">Petición de vacaciones</a></li>
-
-                            <li><a href="#">Gestionar bajas</a></li>
                         </ul>
                     </li>
 
 
 
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="mailto:{{ contact_email }}" target="_blank" >Contacto</a></li>
                 </ul>
 
 
