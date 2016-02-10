@@ -36,7 +36,6 @@ class TaskController extends Controller
         );
     }
     /**
-     * Creates a new Task entity.
      *
      * @Route("/", name="task_create")
      * @Method("POST")

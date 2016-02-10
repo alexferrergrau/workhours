@@ -33,8 +33,8 @@ class Task
      * @Assert\Length(
      *      min = 20,
      *      max = 1000,
-     *      minMessage = "The description must be at least {{ limit }} characters long",
-     *      maxMessage = "The description name cannot be longer than {{ limit }} characters"
+     *      minMessage = "La descripción debe ser al menos de {{ limit }} caracteres",
+     *      maxMessage = "La descripción no puede ser superior a {{ limit }} caracteres"
      * )
      * @var string
      *
@@ -42,16 +42,17 @@ class Task
      */
     private $description;
 
-
     /**
-     * @Assert\NotEqualTo(
-     *     value = 0
+     *
+     *  @Assert\GreaterThan(
+     *     value = 0,
+     *     message = "Valor mínimo 1 hora"
      * )
-     */
-    /**
+     *
      * @var integer
      *
      * @ORM\Column(name="hours", type="integer")
+     *
      */
     private $hours;
 
