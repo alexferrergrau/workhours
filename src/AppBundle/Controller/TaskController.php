@@ -27,9 +27,7 @@ class TaskController extends Controller
      */
     public function indexAction()
     {
-        $em = $this->getDoctrine()->getManager();
-
-        $entities = $em->getRepository('AppBundle:Task')->findAll();
+        $entities = $this->get('app.task')->findAllTasks();
 
         return array(
             'entities' => $entities,
@@ -97,6 +95,35 @@ class TaskController extends Controller
             'form'   => $form->createView(),
         );
     }
+
+    /**
+     * @Route("/hoursbiggerthan/{hours}", name="task_bigger")
+     * @Method("GET")
+     * @Template("AppBundle:Task:index.html.twig")
+     */
+    public function biggerThanAction($hours)
+    {
+        $entities = $this->get('app.task')->findTasksByDurationBiggerThan($hours);
+
+        return array(
+            'entities'    => $entities
+        );
+    }
+
+    /**
+     * @Route("/hoursequalsto/{hours}", name="task_equals")
+     * @Method("GET")
+     * @Template("AppBundle:Task:index.html.twig")
+     */
+    public function equalsToAction($hours)
+    {
+        $entities = $this->get('app.task')->findTasksByDurationEqualsTo($hours);
+
+        return array(
+            'entities'    => $entities
+        );
+    }
+
 
     /**
      * Finds and displays a Task entity.
@@ -243,4 +270,6 @@ class TaskController extends Controller
             ->getForm()
         ;
     }
+
+
 }
