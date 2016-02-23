@@ -73,3 +73,13 @@ swiftmailer:
     username:  "%mailer_user%"
     password:  "%mailer_password%"
     spool:     { type: memory }
+
+
+monolog:
+    handlers:
+      log:
+        type: stream
+        path: "%kernel.logs_dir%/log-%kernel.environment%.log"
+        level: debug
+        formatter: monolog.formatter.log_listener
+        channels: ['request_info']

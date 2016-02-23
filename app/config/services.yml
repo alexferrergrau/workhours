@@ -13,3 +13,16 @@ services:
 #    service_name:
 #        class: AppBundle\Directory\ClassName
 #        arguments: ["@another_service_name", "plain_value", "%parameter_name%"]
+
+    monolog.formatter.log_listener:
+           class: Monolog\Formatter\LineFormatter
+           arguments:
+               - "[%%datetime%%] %%channel%%.%%level_name%%: %%message%%\n"
+
+
+    app.log_listener:
+           class: AppBundle\EventListener\LogListener
+           arguments: ['@logger']
+           tags:
+               - { name: monolog.logger, channel: request_info }
+               - { name: kernel.event_listener, event: kernel.request}
