@@ -1,7 +1,22 @@
+root:
+    path: /
+    defaults:
+        _controller: FrameworkBundle:Redirect:urlRedirect
+        path: /login
+        permanent: true
+
+user:
+    resource: "@UserBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+# app/config/routing.yml
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
-
-app_bundle:
-    resource: "@AppBundle/Resources/config/routing.yml"
     prefix:   /
+
+
