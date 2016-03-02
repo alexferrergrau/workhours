@@ -1,6 +1,25 @@
 {% extends '::base.html.twig' %}
 
+{% block menu %}
+    <div class="navbar navbar-default navbar-static-top">
 
+        <div class="container">
+
+            <a href="#" class="navbar-brand"><img src="{{ asset('bundles/app/logo_workhours.png') }}"/></a>
+            <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse"></button>
+
+            <div class="collapse navbar-collapse navHeaderCollapse">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="{{ url('fos_user_security_logout') }}">Salir</a></li>
+
+                </ul>
+
+
+            </div>
+        </div>
+    </div>
+{% endblock %}
 {% block body %}
 
 
