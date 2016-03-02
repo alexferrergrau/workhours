@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="613324a2-fa40-4cc9-9e86-0e46b889f188" name="Default" comment="" />
+    <list default="true" id="613324a2-fa40-4cc9-9e86-0e46b889f188" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/confirmed.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UserBundle/Resources/views/Registration/confirmed_old.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/UserBundle/Resources/views/Registration/register_old.html.twig" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/UserBundle/Resources/views/Registration/register.html.twig" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/UserBundle/Controller/DefaultController.php" afterPath="$PROJECT_DIR$/src/UserBundle/Controller/DefaultController.php" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/UserBundle/Resources/views/Security/login.html.twig" afterPath="$PROJECT_DIR$/src/UserBundle/Resources/views/SecurityOld/login_old.html.twig" />
+    </list>
     <ignored path="workhours.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -22,91 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="security.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <file leaf-file-name="confirmed.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/confirmed.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/AdminController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.8461537">
-              <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Admin/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="composer.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/composer.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.767148">
-              <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/app.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.230769">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Default/index.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Task/edit.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TaskController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/TaskController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.5384617">
-              <caret line="23" column="29" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="29" />
+            <state vertical-scroll-proportion="-2.6153846">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -115,11 +47,91 @@
       <file leaf-file-name="DefaultController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UserBundle/Controller/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.807693">
-              <caret line="58" column="66" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="66" />
+            <state vertical-scroll-proportion="-9.153846">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="e#41#98#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="confirmed.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/confirmed.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="security.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/routing/security.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.153846">
+              <caret line="14" column="39" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/UserBundle/Entity/User.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0547504">
+              <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.576923">
+              <caret line="16" column="79" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="79" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.9230769">
+              <caret line="6" column="43" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register_content.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/register_content.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-1.3076923">
+              <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/register.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -149,7 +161,6 @@
         <option value="$PROJECT_DIR$/src/UserBundle/User.php" />
         <option value="$PROJECT_DIR$/app/config/services.yml" />
         <option value="$PROJECT_DIR$/src/UserBundle/Entity/User.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/backend.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Task/edit.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Task/index.html.twig" />
@@ -161,13 +172,22 @@
         <option value="$PROJECT_DIR$/src/UserBundle/UserBundle.php" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/src/UserBundle/Resources/views/Registration/register.html.twig" />
-        <option value="$PROJECT_DIR$/src/UserBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/src/UserBundle/Resources/views/Security/login.html.twig" />
         <option value="$PROJECT_DIR$/src/AppBundle/Controller/AdminController.php" />
         <option value="$PROJECT_DIR$/app/config/security.yml" />
         <option value="$PROJECT_DIR$/src/AppBundle/Resources/views/Admin/index.html.twig" />
+        <option value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/confirmed.html.twig" />
+        <option value="$PROJECT_DIR$/src/UserBundle/Resources/views/Registration/comfirmed.html.twig" />
+        <option value="$PROJECT_DIR$/src/UserBundle/Resources/views/Registration/confirmed.html.twig" />
+        <option value="$PROJECT_DIR$/src/UserBundle/Resources/views/Security/login.html.twig" />
         <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/UserBundle/Resources/views/Security/login_old.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login.html.twig" />
+        <option value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/SecurityController.php" />
+        <option value="$PROJECT_DIR$/src/UserBundle/Resources/views/Registration/register.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register.html.twig" />
+        <option value="$PROJECT_DIR$/src/UserBundle/Controller/DefaultController.php" />
+        <option value="$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/confirmed.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
       </list>
     </option>
   </component>
@@ -181,10 +201,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="-1374" />
     <option name="y" value="-8" />
     <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="height" value="784" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -211,8 +231,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -241,12 +259,578 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="friendsofsymfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="friendsofsymfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="friendsofsymfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Registration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="friendsofsymfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="friendsofsymfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="friendsofsymfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routing" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="friendsofsymfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Type" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="friendsofsymfony" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user-bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Form" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SecurityOld" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Registration" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="UserBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="default" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FOSUserBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FOSUserBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Security" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workhours" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="FOSUserBundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Registration" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -256,18 +840,18 @@
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/[Moodle eformacion]/SVN/MTB/theme/uikit/style/themeuikit.css" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\xampp\htdocs\workhours\app\Resources\FOSUserBundle\views" />
+      <recent name="D:\xampp\htdocs\workhours\src\UserBundle\Resources\views\Registration" />
+      <recent name="D:\xampp\htdocs\workhours\src\AppBundle\Resources\views\Admin" />
+      <recent name="D:\xampp\htdocs\workhours\src\AppBundle\Controller" />
+      <recent name="D:\xampp\htdocs\workhours\app\Resources" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\xampp\htdocs\workhours\src\UserBundle\Resources\views\Registration" />
       <recent name="D:\xampp\htdocs\workhours\src\UserBundle\Resources\views" />
       <recent name="D:\xampp\htdocs\workhours\src\AppBundle\Resources\views" />
       <recent name="D:\xampp\htdocs\workhours\src\UserBundle\Entity" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\xampp\htdocs\workhours\src\AppBundle\Resources\views\Admin" />
-      <recent name="D:\xampp\htdocs\workhours\src\AppBundle\Controller" />
-      <recent name="D:\xampp\htdocs\workhours\app\Resources" />
-      <recent name="D:\xampp\htdocs\workhours\src\AppBundle\Resources\views\Default" />
-      <recent name="D:\xampp\htdocs\workhours\app\Resources\views" />
     </key>
   </component>
   <component name="RunManager">
@@ -314,14 +898,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-1374" y="-8" width="1382" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24304539" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32913387" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3362963" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -354,581 +938,10 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Task.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="52" column="25" selection-start-line="52" selection-start-column="25" selection-end-line="52" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters_prod.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="28" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Entity/Task.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="46" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Form/TaskType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="36" column="81" selection-start-line="36" selection-start-column="81" selection-end-line="36" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Model/TaskManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.029259896">
-          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Documents/[Moodle eformacion]/SVN/MTB/theme/uikit/style/themeuikit.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="4292" column="15" selection-start-line="4292" selection-start-column="15" selection-end-line="4292" selection-end-column="15" />
-          <folding>
-            <marker date="1456320734702" expanded="true" signature="376:761" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="801:817" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="979:1009" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="1112:1129" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="1248:1299" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="1497:1529" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="1593:1617" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="1817:2045" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="2069:2090" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="2112:2181" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="2252:2296" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="2315:2340" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="2420:2441" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="2527:2616" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="2621:2639" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="2644:2666" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="3056:3232" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="3317:3339" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="3664:3689" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="3784:3807" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="3922:4089" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="4155:4178" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="4206:4249" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="4261:4349" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="4363:4406" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="4418:4461" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="4473:4516" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="4528:4571" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="4667:4692" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="4788:4804" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="4908:4932" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="4936:4957" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="5141:5300" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="5399:5424" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="5530:5651" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="5803:6026" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="6152:6217" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="6230:6295" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="6540:6561" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="6667:6698" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="6803:6823" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="6951:6971" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="7068:7084" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="7236:7286" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="7254:7284" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="7619:7837" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="8079:8135" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="8188:8206" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="8488:8684" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="8817:8840" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="9033:9056" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="9306:9329" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="9485:9508" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="9608:10906" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="9669:9695" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="9771:9807" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="9846:9904" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="9935:10047" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="10131:10200" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="10372:10406" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="10443:10472" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="10603:10637" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="10866:10904" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="11007:11060" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="11139:11164" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="11253:11278" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="11560:11583" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="12030:12078" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="12100:12148" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="12689:12726" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="12777:12912" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="12964:13097" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="13155:13502" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="13244:13298" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="13448:13500" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="13553:13632" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="13756:13825" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="13890:14029" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="14163:14238" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="14262:14279" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="14303:14324" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="14348:14365" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="14389:14406" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="14430:14451" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="14476:14493" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="14553:14883" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="14586:14607" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="14639:14664" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="14696:14717" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="14749:14770" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="14802:14827" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="14860:14881" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="14934:15270" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="14968:14989" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="15022:15047" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="15080:15101" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="15134:15155" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="15188:15213" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="15247:15268" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="15322:15652" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="15355:15376" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="15408:15433" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="15571:15596" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="15710:16046" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="15798:15823" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="15856:15877" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="16213:16288" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="16332:16350" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="16424:16441" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="16484:16505" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="16535:16556" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="16586:16603" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="16618:16635" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="16679:16696" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="16727:16744" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="16775:16792" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="16823:16840" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="16868:16889" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="16904:16925" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="16954:16971" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="16987:17004" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="17020:17037" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="17053:17070" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="17130:18176" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="17168:17190" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="17298:17319" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="17380:17405" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="17451:17476" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="17516:17537" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="17560:17581" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="17711:17732" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="17779:17800" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="17847:17868" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="17906:17931" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="17954:17979" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="18063:18084" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="18108:18129" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="18153:18174" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="18227:19298" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="18266:18288" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="18400:18421" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="18484:18509" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="18557:18582" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="18623:18644" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="18668:18689" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="18823:18844" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="18893:18914" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="18963:18984" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="19023:19048" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="19072:19097" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="19229:19250" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="19275:19296" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="19350:20396" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="19388:19410" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="19518:19539" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="19600:19625" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="19671:19696" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="19736:19757" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="19780:19801" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="19863:19884" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="19999:20020" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="20067:20088" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="20126:20151" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="20174:20199" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="20238:20259" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="20283:20304" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="20328:20349" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="20634:22379" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="20681:20710" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="20815:20835" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="20882:20906" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="20938:20962" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="20995:21015" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="21031:21051" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="21099:21119" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="21152:21172" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="21205:21225" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="21258:21278" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="21309:21333" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="21349:21373" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="21405:21425" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="21479:21499" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="21516:21536" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="21641:21662" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="21709:21734" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="21766:21791" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="21824:21845" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="21861:21882" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="21930:21951" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="21984:22005" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="22038:22059" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="22092:22113" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="22144:22169" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="22185:22210" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="22242:22263" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="22318:22339" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="22356:22377" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="22643:22706" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="22772:22818" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="22905:22941" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="22958:22976" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="23091:23114" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="23242:23390" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="23518:23579" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="23701:23820" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="23842:23863" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="23946:23977" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="24099:24121" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="24191:24282" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="24372:24393" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="24467:24517" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="24549:24570" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="24611:24632" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="24758:24833" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="24856:24925" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="24958:24989" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="25023:25060" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="25204:25224" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="25259:25759" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="25885:25905" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="25938:25969" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="26111:26145" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="26183:26311" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="26369:26504" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="26403:26441" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="26536:26622" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="26892:26928" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="26947:26965" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="27036:27059" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="27125:27148" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="27279:27369" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="27390:27436" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="27565:27626" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="27755:27839" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="27974:28025" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="28050:28073" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="28100:28157" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="28467:28584" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="28662:28698" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="28724:28742" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="28875:28915" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="29046:29110" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="29239:29321" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="29450:29498" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="29726:29763" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="30010:30080" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="30232:30355" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="30549:30599" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="30631:30677" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="30695:30719" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="30754:30779" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="30860:30903" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="31029:31122" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="31156:31179" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="31307:31330" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="31517:31547" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="31704:31831" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="31883:31906" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="32222:32386" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="32432:32570" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="32637:32658" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="32727:32794" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="32836:32857" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="33235:33400" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="33471:33492" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="33565:33601" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="34042:34207" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="34368:34404" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="34448:34469" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="34496:34517" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="34671:34856" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="35164:35235" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="35368:35462" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="35534:35737" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="35811:35977" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="36097:36118" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="36168:36189" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="36254:36353" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="36427:36529" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="36717:37045" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="37107:37143" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="37161:37179" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="37305:37370" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="37442:37492" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="37553:38013" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="38074:38096" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="38323:38631" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="38677:38900" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="38948:39171" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="39331:39355" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="39386:39449" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="39691:39875" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="40010:40095" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="40604:40691" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="40823:40896" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="41028:41093" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="41227:41300" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="41361:41448" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="41477:41500" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="41782:41893" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="42021:42040" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="42328:42371" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="42754:42879" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="43258:43337" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="43521:43608" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="43730:43754" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="43791:43812" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="43920:43941" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="44091:44206" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="44367:44437" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="44594:44709" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="44818:44912" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="45220:45299" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="45440:45485" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="45630:45691" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="46118:46229" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="46440:46458" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="46653:46743" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="46779:46802" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="46993:47229" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="47270:47596" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="47751:47854" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="47900:48102" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="48155:48493" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="48550:48672" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="48808:48826" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="48847:48866" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="48989:49012" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="49034:49058" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="49240:49326" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="49407:49443" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="49458:49476" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="49550:49623" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="49641:49856" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="50118:50214" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="50336:50384" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="50425:50530" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="50575:50612" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="50898:50917" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="50955:50997" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="51142:51182" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="51228:51284" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="51405:51444" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="51467:51526" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="51571:51607" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="51629:51647" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="51764:51835" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="51864:51904" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="52083:52142" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="52163:52206" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="52231:52328" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="52471:52556" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="52591:52659" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="52868:52961" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="52982:53124" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="53205:53230" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="53287:53310" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="53345:53377" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="53544:55045" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="53578:53608" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="53651:53695" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="53879:53925" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="53996:54028" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="54085:54127" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="54148:54177" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="54202:54264" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="54358:54458" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="54657:54685" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="54711:54772" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="54868:54966" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="55002:55043" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="55182:55215" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="55391:55624" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="55469:55506" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="55585:55622" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="55808:55845" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="55938:55974" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="55995:56013" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="56086:56109" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="56145:56203" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="56345:56420" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="56553:56612" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="56822:56845" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="56880:56916" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="57278:57585" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="57314:57341" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="57381:57514" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="57554:57583" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="57736:57762" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="57809:57884" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="58249:58370" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="58465:58488" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="58590:58649" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="58724:58747" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="58798:58824" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="58893:58922" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="59077:59121" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="59187:59228" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="59381:59421" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="59740:59763" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="59904:59930" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="60714:60882" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="61020:61047" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="61287:61348" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="61502:61532" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="61756:61773" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="62110:62132" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="62981:63012" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="63450:63481" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="64157:64203" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="64375:64439" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="64575:64592" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="64707:64730" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="64975:65004" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="65202:65225" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="66953:67213" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="68896:68979" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="70815:70890" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="71118:71139" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="71388:71420" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="71684:71705" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="72011:72170" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="72256:72353" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="72606:72664" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="72770:72828" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="73144:73163" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="73350:73452" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="73494:73596" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="73779:73888" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="73910:73949" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="74164:74182" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="74209:74227" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="74291:74310" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="74332:74351" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="74862:74898" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="75042:75060" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="75297:75320" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="75493:75543" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="75564:75588" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="76310:76330" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="76851:76874" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="77188:77252" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="77487:78178" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="78104:78176" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="78230:80246" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="78753:78814" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="78870:78943" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="79914:79943" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="80217:80244" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="80488:80587" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="80678:80843" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="81055:81092" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="81628:81658" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="82425:83238" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="83513:83535" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="84048:84186" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="84632:84834" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="85233:85540" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="86206:86282" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="87004:87206" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="87298:87605" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="87757:87833" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="88001:88203" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="88261:88568" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="88630:88706" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="88774:88976" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="89365:89529" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="89790:89883" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="89912:89933" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="90030:90081" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="90107:90128" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="90163:90189" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="90303:90384" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="90441:90523" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="90541:90645" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="91033:91194" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="91216:91244" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="91545:91571" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="91784:91880" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="93321:93344" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="94218:94284" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="95140:95204" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="97066:97633" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="97767:98003" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="98123:98169" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="98193:98239" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="98262:98308" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="98430:98552" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="98678:99180" placeholder="{...}" />
-            <marker date="1456320734702" expanded="true" signature="304663:304665" placeholder="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -936,17 +949,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.9414802">
           <caret line="4232" column="28" selection-start-line="4232" selection-start-column="28" selection-end-line="4232" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/EventListener/LogListener.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.346153">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="e#42#83#0#PHP" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -954,7 +956,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -962,15 +963,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.9615383">
-          <caret line="20" column="12" selection-start-line="20" selection-start-column="12" selection-end-line="20" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -982,32 +974,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
-          <folding>
-            <marker date="1456327293383" expanded="true" signature="173:268" placeholder="app.task:" />
-            <marker date="1456327293383" expanded="true" signature="273:473" placeholder="fos_user.doctrine_registry:" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UserBundle/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923">
-          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
-          <folding>
-            <element signature="e#37#79#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1015,31 +985,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.709091">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Task/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Task/new.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1047,39 +992,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="21" selection-start-line="0" selection-start-column="21" selection-end-line="0" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/backend.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="18" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UserBundle/Resources/views/Default/index.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="69" column="54" selection-start-line="69" selection-start-column="54" selection-end-line="69" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/AppBundle.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1091,50 +1003,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/register_content.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3076923">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/register.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384">
-          <caret line="3" column="55" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UserBundle/Resources/views/Registration/register.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Security/login.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.8846154">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="22" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/RegistrationController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1155,53 +1027,100 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/SecurityController.php">
+    <entry file="file://$PROJECT_DIR$/web/app.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="48" />
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UserBundle/Resources/views/Default/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UserBundle/Resources/views/Registration/confirmed_old.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19162641">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/UserBundle/Resources/views/Security/login.html.twig">
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/RegistrationController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6923075">
-          <caret line="21" column="75" selection-start-line="21" selection-start-column="75" selection-end-line="21" selection-end-column="75" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/TaskController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.5384617">
-          <caret line="23" column="29" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.230769">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/UserBundle/Controller/DefaultController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.807693">
-          <caret line="58" column="66" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="66" />
+        <state vertical-scroll-proportion="0.3108108">
+          <caret line="141" column="28" selection-start-line="141" selection-start-column="28" selection-end-line="141" selection-end-column="28" />
           <folding>
-            <element signature="e#41#98#0#PHP" expanded="true" />
+            <element signature="e#7#259#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/AdminController.php">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Task/index.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.8461537">
-          <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.5">
+          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/services.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/backend.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="18" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Task/new.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0273752">
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="1647" column="32" selection-start-line="1647" selection-start-column="25" selection-end-line="1647" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/EventListener/LogListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.346153">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="e#42#83#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Admin/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
           <folding />
         </state>
       </provider>
@@ -1216,13 +1135,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Task/edit.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="35" />
+        <state vertical-scroll-proportion="3.5769231">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/app.php">
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/AppBundle.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2190016">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.115385">
+          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/TaskController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.16425121">
+          <caret line="28" column="5" selection-start-line="28" selection-start-column="5" selection-end-line="28" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5748792">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#99#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AppBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.273752">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#40#99#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/routing/all.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1233,23 +1196,153 @@
     <entry file="file://$PROJECT_DIR$/app/config/security.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+          <caret line="37" column="30" selection-start-line="37" selection-start-column="30" selection-end-line="37" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AppBundle/Resources/views/Admin/index.html.twig">
+    <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <caret line="71" column="38" selection-start-line="71" selection-start-column="38" selection-end-line="71" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/composer.json">
+    <entry file="file://$PROJECT_DIR$/src/UserBundle/Resources/views/SecurityOld/login_old.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.767148">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Controller/SecurityController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.890863">
+          <caret line="78" column="58" selection-start-line="78" selection-start-column="58" selection-end-line="78" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Security/login.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.2692308">
+          <caret line="5" column="77" selection-start-line="5" selection-start-column="77" selection-end-line="5" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UserBundle/Resources/views/Registration/register_old.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="4" column="41" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Form/Type/RegistrationFormType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.8846154">
+          <caret line="36" column="32" selection-start-line="36" selection-start-column="19" selection-end-line="36" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/register.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="0" column="29" selection-start-line="0" selection-start-column="29" selection-end-line="0" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/register_content.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.3076923">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UserBundle/Controller/DefaultController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <element signature="e#41#98#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/register.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769">
+          <caret line="6" column="43" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/views/Registration/confirmed.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.6153846">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/Registration/confirmed.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/FOSUserBundle/views/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.576923">
+          <caret line="16" column="79" selection-start-line="16" selection-start-column="56" selection-end-line="16" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/routing/security.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846">
+          <caret line="14" column="39" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/UserBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0547504">
+          <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
           <folding />
         </state>
       </provider>

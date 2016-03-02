@@ -1,0 +1,72 @@
+{% extends '::base.html.twig' %}
+{% block body %}
+    <div class="container-fluid">
+           <div class="form col-xs-4 col-md-4">
+                <h3>Formulario de registro</h3>
+
+           {#<form class="form-horizontal">#}
+                {{ form_start(form, {'method': 'post', 'action': path('fos_user_registration_register'), 'attr': {'class': 'fos_user_registration_register'}}) }}
+                <div class="form-group">
+                    <div class="col-md-5">
+                        <label class="required" for="fos_user_registration_form_email">Correo electrónico</label>
+                    </div>
+                    <div class="col-md-6">
+                      {# <input class="col-xs-12" type="email" required="required" name="fos_user_registration_form[email]"
+                       id="fos_user_registration_form_email"> #}
+                        {{ form_widget(form.email) }}
+                    </div>
+                </div>
+
+
+
+                <div class="form-group">
+                    <div class="col-md-5">
+                        <label class="required" for="fos_user_registration_form_username">Usuario</label>
+                    </div>
+                    <div class="col-md-6">
+                        {#<input class="col-xs-12" type="text" pattern=".{2,}" maxlength="255" required="required"
+                       name="fos_user_registration_form[username]" id="fos_user_registration_form_username">#}
+                        {{ form_widget(form.username) }}
+                    </div>
+                </div>
+
+
+
+                <div id="fos_user_registration_form_plainPassword">
+
+                    <div class="form-group">
+                        <div class="col-md-5">
+                            <label class="required" for="fos_user_registration_form_plainPassword_first">Contraseña</label>
+                        </div>
+                        <div class="col-md-6">
+                            {#<input class="col-xs-12" type="password" required="required" name="fos_user_registration_form[plainPassword][first]" id="fos_user_registration_form_plainPassword_first"> #}
+                            {{ form_widget(form.plainPassword) }}
+                        </div>
+                    </div>
+
+
+                    {#
+                    <div class="form-group">
+                        <div class="col-md-5">
+                            <label class="required" for="fos_user_registration_form_plainPassword_second">Repite contraseña</label>
+                        </div>
+                        <div class="col-md-6">
+                            <input class="col-xs-12" type="password" required="required" name="fos_user_registration_form[plainPassword][second]" id="fos_user_registration_form_plainPassword_second">
+                        </div>
+                    </div>#}
+
+                </div>
+
+                <div>
+                    <input type="submit" value="Enviar datos" name="_submit" id="_submit" class="btn btn btn-primary">
+                </div>
+
+               {{ form_rest(form) }}
+                {{ form_end(form) }}
+
+           </form>
+           </div>
+    </div>
+
+
+{% endblock %}
