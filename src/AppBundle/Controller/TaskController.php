@@ -13,7 +13,7 @@ use AppBundle\Form\TaskType;
 /**
  * Task controller.
  *
- * @Route("/{_locale}/task", defaults={"_locale": "es"}, requirements={"_locale": "en|es"})
+ * @Route("/{_locale}/task", defaults={"_locale": "es"}, requirements={"_locale": "es|en"})
  */
 class TaskController extends Controller
 {
