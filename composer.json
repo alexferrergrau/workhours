@@ -31,7 +31,9 @@
         "sensio/generator-bundle": "~2.3",
         "friendsofsymfony/user-bundle": "~2.0@dev"
     },
-    
+    "require-dev": {
+      "phpunit/phpunit": "4.8.23"
+    },
     "scripts": {
         "post-root-package-install": [
             "SymfonyStandard\\Composer::hookRootPackageInstall"
