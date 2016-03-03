@@ -13,11 +13,10 @@ use AppBundle\Form\TaskType;
 /**
  * Task controller.
  *
- * @Route("/task")
+ * @Route("/{_locale}/task", defaults={"_locale": "es"}, requirements={"_locale": "en|es"})
  */
 class TaskController extends Controller
 {
-
     /**
      * Lists all Task entities.
      *
@@ -25,7 +24,7 @@ class TaskController extends Controller
      * @Method("GET")
      * @Template()
      */
-    public function indexAction()
+    public function indexAction(Request $request)
     {
         $entities = $this->get('app.task')->findAllTasks();
 

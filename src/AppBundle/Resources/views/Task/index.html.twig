@@ -11,10 +11,10 @@
         <thead>
             <tr>
                 <th>Id</th>
-                <th>Tarea</th>
-                <th>Descripción</th>
-                <th>Horas empleadas</th>
-                <th>Acción</th>
+                <th>{{ 'Tareas'|trans({}, 'tasks') }}</th>
+                <th>{{ 'Descripción'|trans({}, 'tasks') }}</th>
+                <th>{{ 'Horas empleadas'|trans({}, 'tasks') }}</th>
+                <th>{{ 'Acción'|trans({}, 'tasks') }}</th>
 
 
             </tr>
@@ -29,11 +29,11 @@
                 <td>
                 <ul>
                     <li>
-                        <a href="{{ path('task_show', { 'id': entity.id }) }}"><button type="button" class="btn btn-success btn-xs pull-left">Ver tarea</button></a>
+                        <a href="{{ path('task_show', { 'id': entity.id }) }}"><button type="button" class="btn btn-success btn-xs pull-left">{{ 'Ver tarea'|trans({}, 'tasks') }}</button></a>
                     </li>
 
                     <li>
-                        <a href="{{ path('task_edit', { 'id': entity.id }) }}"><button type="button" class="btn btn-warning btn-xs pull-left">Editar tarea</button></a>
+                        <a href="{{ path('task_edit', { 'id': entity.id }) }}"><button type="button" class="btn btn-warning btn-xs pull-left">{{ 'Editar tarea'|trans({}, 'tasks') }}</button></a>
                     </li>
                 </ul>
                 </td>
@@ -45,7 +45,7 @@
         <ul>
             <li>
                 <a href="{{ path('task_new') }}"><button type="button" class="btn btn-primary">
-                        Nueva tarea</button>
+                        {{ 'Nueva tarea'|trans({}, 'tasks') }}</button>
                 </a>
             </li>
 

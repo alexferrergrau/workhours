@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+    <file source-language="en" target-language="es" datatype="plaintext" original="file.ext">
+        <body>
+            <trans-unit id="1">
+                <source>Tareas</source>
+                <target>Tasks</target>
+            </trans-unit>
+            <trans-unit id="2">
+                <source>Descripción</source>
+                <target>Description</target>
+            </trans-unit>
+            <trans-unit id="3">
+                <source>Horas empleadas</source>
+                <target>Hours spent</target>
+            </trans-unit>
+            <trans-unit id="4">
+                <source>Acción</source>
+                <target>Action</target>
+            </trans-unit>
+            <trans-unit id="5">
+                <source>Nueva tarea</source>
+                <target>New task</target>
+            </trans-unit>
+            <trans-unit id="6">
+                <source>Ver tarea</source>
+                <target>View task</target>
+            </trans-unit>
+            <trans-unit id="7">
+                <source>Editar tarea</source>
+                <target>Edit task</target>
+            </trans-unit>
+        </body>
+    </file>
+</xliff>
